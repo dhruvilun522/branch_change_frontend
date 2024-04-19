@@ -15,7 +15,7 @@ const Home = () => {
     <Grid container spacing={6}>
       {
 
-        (userAuths.includes('emp')) ?
+        (userAuths.includes('stu')) ?
           (
             <Grid item xs={12}>
               <Employee />
